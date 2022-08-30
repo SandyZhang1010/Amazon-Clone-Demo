@@ -461,10 +461,10 @@
   "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.2.0.tgz"
   "version" "9.2.0"
 
-"@heroicons/react@^2.0.8":
-  "integrity" "sha512-nJNOMjXQH0Ngk6Y7QllYBH5VLB3+HMJyGBVQPZYUXGalYmN9kgEcVIxMjOiVjwuzee0GvZzmMRB0VQRJPHe8eg=="
-  "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-2.0.8.tgz"
-  "version" "2.0.8"
+"@heroicons/react@^1.0.6":
+  "integrity" "sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ=="
+  "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-1.0.6.tgz"
+  "version" "1.0.6"
 
 "@next-auth/prisma-legacy-adapter@0.1.2":
   "integrity" "sha512-QpGcRvrnFERkvVFroqS89qDbnskw9AjhvWxO095u3xl/8QVI++Y+doluQdZWuV6PewjrV7xY+uVUEnRhnGM8yQ=="
