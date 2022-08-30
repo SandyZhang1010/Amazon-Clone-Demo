@@ -9,4 +9,7 @@
   .button {
     @apply text-xs p-3 font-semibold md:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 hover:from-yellow-500;
   }
+  .disabledButton {
+    @apply text-xs p-3 font-semibold md:text-sm bg-gradient-to-b from-gray-300 to-gray-500 border border-gray-200 text-gray-300 rounded-sm cursor-not-allowed;
+  }
 }
