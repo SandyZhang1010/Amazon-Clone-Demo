@@ -1,4 +1,4 @@
-import friebase from 'firebase'
+import firebase from 'firebase'
 
 const firebaseConfig = {
   apiKey: "AIzaSyDknS2PduCGIgk69SHyraxhge2D69HIYYI",
@@ -8,3 +8,11 @@ const firebaseConfig = {
   messagingSenderId: "1074680512275",
   appId: "1:1074680512275:web:8d27f103616306f3c464e6"
 }
+
+const app = !firebase.apps.length
+  ? firebase.initializeApp(firebaseConfig)
+  : firebase.app()
+
+const db = app.firestore()
+
+export default db
